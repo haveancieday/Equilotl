@@ -46,7 +46,7 @@ func init() {
 }
 
 func GetInstallerDownloadLink() string {
-	const BaseUrl = "https://github.com/Equicord/Equilotl/releases/latest/download/"
+	const BaseUrl = "https://github.com/haveancieday/Equilotl/releases/latest/download/"
 	switch runtime.GOOS {
 	case "windows":
 		filename := Ternary(buildinfo.UiType == buildinfo.UiTypeCli, "EquilotlCli", "Equilotl")
